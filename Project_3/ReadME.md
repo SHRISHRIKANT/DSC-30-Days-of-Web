@@ -4,7 +4,7 @@ Now that you have added style to your portfolio site, it **lacks the modern feel
 
 **Use Bootstrap** in addition to, or in replacement to, your CSS to make your website modern!
 
-# Following are the snapshots of my project-2(PORTFOLIO)
+# Following are the snapshots of my project-3(PORTFOLIO)
 
 ![](final-project/screen-shots/1.PNG)
 ![](final-project/screen-shots/2.PNG)
