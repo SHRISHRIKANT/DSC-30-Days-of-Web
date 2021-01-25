@@ -73,12 +73,11 @@
                 alert( "Please provide your state!" );
                 return false;
             }
-            
-        
-         
-          
-        myFunction();
-        duplicate();
+            if (!list3.includes(document.myForm.EMail.value)) {
+                myFunction();
+              } else {
+                alert("repeated entry!");
+              }
         
         
         
@@ -88,23 +87,7 @@
             
         }
 
-        function duplicate(){
-            
-            for(i=0;i<=x;i++){
-                for(j=1;j<i;j++){
-                    if(list3[j]==list3[i]){
-                        alert("repeated entry!");
-                        document.myForm.EMail.focus();
-                        return false;
-                    }
-                    
-                    
-                    
-            }
-            
-        }
         
-        }
         
     
 
